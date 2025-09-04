@@ -12,34 +12,34 @@
     <header>
         <!-- Top Header -->
         <nav class="navbar navbar-light bg-white fs-6">
-            <div class="container d-flex align-items-center">
+            <div class="container d-flex align-items-center flex-nowrap">
 
-                <!-- Navbar title -->
+                <!-- Top Header title -->
                 <a class="navbar-brand" asp-area="" asp-page="/Index">Hospital Management System</a>
 
                 <!-- Center: Search -->
-                <form class="d-flex mx-auto">
+                <form class="d-flex mx-auto flex-nowrap">
                     <input class="form-control me-2" type="search" placeholder="Search" />
                     <button class="btn btn-outline-primary" type="submit">Search</button>
                 </form>
 
                 <!-- Right: Language, login, staff -->
-                <div class="d-flex">
+                <div class="d-flex ms-auto flex-nowrap">
                     <!-- Language -->
                     <select class="form-select me-2" aria-label="Select language">
                         <option selected>English</option>
                         <option value="1">Swedish</option>
                     </select>
                     <!-- Login -->
-                    <button class="btn btn-outline-secondary me-2">Login</button>
+                    <button class="btn btn-outline-secondary me-2" aria-label="Patient login">Login</button>
                     <!-- Staff -->
-                    <button class="btn btn-outline-success">Staff</button>
+                    <button class="btn btn-outline-success" aria-label="Staff login">Staff</button>
                 </div>
             </div>
         </nav>
         
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm navbar-light bg-info bg-opacity-25 fs-6 border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info bg-opacity-25 fs-6 border-bottom box-shadow mb-3">
             <div class="container">
 
                 <!-- Burger if small window -->
@@ -61,6 +61,7 @@
             </div>
         </nav>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
