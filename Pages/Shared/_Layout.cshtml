@@ -64,7 +64,25 @@
 
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
+
+            <div class="container mt-3">
+                <div class="row">
+
+                    <!-- Content -->
+                    <div class="col">
+                        @RenderBody()
+                    </div>
+
+                    <!-- News -->
+                    <div class="col-3">
+                        <div class="news-section p-3 bg-info bg-opacity-25 p-3 border rounded">
+                            <h3>News</h3>
+                            <p>Lates news..</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </main>
     </div>
 

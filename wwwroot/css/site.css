@@ -20,3 +20,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.news-section {
+    width: 300px /*fixed*/
+    margin-top: 20px /*margin from header*/
+}

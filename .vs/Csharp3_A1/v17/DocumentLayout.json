@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-04T07:11:12.184Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +45,14 @@
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Shared\\_Layout.cshtml*",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwA4AAABHAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAiwFEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-02T13:19:48.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
