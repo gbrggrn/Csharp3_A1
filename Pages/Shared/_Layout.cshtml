@@ -15,7 +15,7 @@
             <div class="container d-flex align-items-center flex-nowrap">
                 
                 <!-- Logo -->
-                <img src="images/logos/hospital_logo.jpg" 
+                <img src="~/images/logos/hospital_logo.jpg" 
                      class="img-fluid rounded me-3"
                      alt="Hospital logo"
                      style="width: 50px; height: auto"/>
@@ -62,9 +62,9 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="lifeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Life & Health</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Exercise</a></li>
-                                <li><a class="dropdown-item" href="#">Nutrition</a></li>
-                                <li><a class="dropdown-item" href="#">Wellness</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/LifeHealth/Exercise">Exercise</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/LifeHealth/Nutrition">Nutrition</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/LifeHealth/Wellness">Wellness</a></li>
                             </ul>
                         </li>
 
@@ -72,8 +72,8 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="childPregDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Child & Pregnant</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Child</a></li>
-                                <li><a class="dropdown-item" href="#">Pregnant</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/ChildPregnant/Child">Child</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/ChildPregnant/Child">Pregnant</a></li>
                             </ul>
                         </li>
 
@@ -81,8 +81,8 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="disAilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Diseases & Ailments</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Diseases</a></li>
-                                <li><a class="dropdown-item" href="#">Ailments</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/DiseasesAilments/Diseases">Diseases</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/DiseasesAilments/Ailments">Ailments</a></li>
                             </ul>
                         </li>
 
@@ -90,8 +90,8 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="accInjDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Accidents & Injuries</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Accidents</a></li>
-                                <li><a class="dropdown-item" href="#">Injuries</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/AccidentsInjuries/Accidents">Accidents</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/AccidentsInjuries/Injuries">Injuries</a></li>
                             </ul>
                         </li>
 
@@ -99,8 +99,8 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="exaTreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Examination & Treatment</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Examination</a></li>
-                                <li><a class="dropdown-item" href="#">Treatment</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/ExaminationTreatment/Examination">Examination</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/ExaminationTreatment/Treatment">Treatment</a></li>
                             </ul>
                         </li>
 
@@ -127,31 +127,31 @@
                             <h4>News</h4>
                             <div class="mb-3">
                                 <a href="#" class="text-decoration-none text-dark">
-                                    <img src="images/news/news_hospital_img1.jpg" class="img-fluid rounded mb-2" alt="News 1" />
+                                    <img src="~/images/news/news_hospital_img1.jpg" class="img-fluid rounded mb-2" alt="News 1" />
                                     <h6>Rabies finally cured</h6>
                                 </a>
                             </div>
                             <div class="mb-3">
                                 <a href="#" class="text-decoration-none text-dark">
-                                    <img src="images/news/news_hospital_img2.jpg" class="img-fluid rounded mb-2" alt="News 2" />
+                                    <img src="~/images/news/news_hospital_img2.jpg" class="img-fluid rounded mb-2" alt="News 2" />
                                     <h6>Screen-induced sadness prevalent among teachers</h6>
                                 </a>
                             </div>
                             <div class="mb-3">
                                 <a href="#" class="text-decoration-none text-dark">
-                                    <img src="images/news/news_hospital_img3.jpg" class="img-fluid rounded mb-2" alt="News 3" />
+                                    <img src="~/images/news/news_hospital_img3.jpg" class="img-fluid rounded mb-2" alt="News 3" />
                                     <h6>New fake it till you make it-program successful in recruiting new doctors</h6>
                                 </a>
                             </div>
                             <div class="mb-3">
                                 <a href="#" class="text-decoration-none text-dark">
-                                    <img src="images/news/news_hospital_img4.jpg" class="img-fluid rounded mb-2" alt="News 4" />
+                                    <img src="~/images/news/news_hospital_img4.jpg" class="img-fluid rounded mb-2" alt="News 4" />
                                     <h6>Involountary handclapping connected to chronic fatigue</h6>
                                 </a>
                             </div>
                             <div class="mb-3">
                                 <a href="#" class="text-decoration-none text-dark">
-                                    <img src="images/news/news_hospital_img5.jpg" class="img-fluid rounded mb-2" alt="News 5" />
+                                    <img src="~/images/news/news_hospital_img5.jpg" class="img-fluid rounded mb-2" alt="News 5" />
                                     <h6>Handsome doctors cure patients faster</h6>
                                 </a>
                             </div>
