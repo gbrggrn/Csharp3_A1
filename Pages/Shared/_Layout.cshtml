@@ -51,11 +51,53 @@
                 <!-- Burger target / menu -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav justify-content-center w-100">
-                        <li class="nav-item"><a class="nav-link fs-6" href="#">Life & Health</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Child & Pregnant</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Diseases & Ailments</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Accidents & Injuries</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Examination & Treatment</a></li>
+
+                        <!-- Life & Health nested dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="lifeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Life & Health</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Exercise</a></li>
+                                <li><a class="dropdown-item" href="#">Nutrition</a></li>
+                                <li><a class="dropdown-item" href="#">Wellness</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Child & Pregnant nested dropdown-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="childPregDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Child & Pregnant</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Child</a></li>
+                                <li><a class="dropdown-item" href="#">Pregnant</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Diseases & Ailments nested dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="disAilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Diseases & Ailments</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Diseases</a></li>
+                                <li><a class="dropdown-item" href="#">Ailments</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Accidents & Injuries nested dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="accInjDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Accidents & Injuries</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Accidents</a></li>
+                                <li><a class="dropdown-item" href="#">Injuries</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Examination & Treatment nested dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="exaTreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Examination & Treatment</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Examination</a></li>
+                                <li><a class="dropdown-item" href="#">Treatment</a></li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </div>
             </div>
