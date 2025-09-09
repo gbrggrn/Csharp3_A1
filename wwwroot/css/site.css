@@ -22,6 +22,14 @@ body {
 }
 
 .news-section {
-    width: 300px /*fixed*/
-    margin-top: 20px /*margin from header*/
+    width: 300px; /*fixed*/
+}
+
+.content-img-wrapper {
+    width: 400px; /*fixed*/
+}
+
+.below-header-wrapper {
+    max-width: 950px;
+    width: 100%;
 }

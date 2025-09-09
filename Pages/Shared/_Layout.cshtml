@@ -113,16 +113,18 @@
     <div class="container">
         <main role="main" class="pb-3">
 
-            <div class="container mt-3">
+            <div class="container mt-2">
                 <div class="row">
 
                     <!-- Content -->
-                    <div class="col">
-                        @RenderBody()
+                    <div class="col below-header-wrapper">
+                        <div class="content-wrapper">
+                            @RenderBody()
+                        </div>
                     </div>
 
                     <!-- News -->
-                    <div class="col-3">
+                    <div class="col-2">
                         <div class="news-section p-3 bg-info bg-opacity-25 p-3 border rounded">
                             <h4>News</h4>
                             <div class="mb-3">
