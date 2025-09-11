@@ -4,19 +4,70 @@
 	ViewData["Title"] = "Patient Portal";
 }
 
-<div class="container mt-2">
+<!-- Browser query for button navigation -->
+@{
+	var section = Request.Query["section"].ToString() ?? "Profile"; //Request value of "section" - default to "Profile"
+}
+
+<div class="container mt-3">
 	<div class="row">
-		<div class="col">
-			<div class="nav flex-column">
-				<a class="nav-link active">Profile</a>
-				<a class="nav-link">Appointments</a>
-				<a class="nav-link">Medical Records</a>
-				<a class="nav-link">Prescriptions</a>
+
+		<!-- Sidebar menu -->
+		<div class="col-md-4">
+			<div class="d-flex flex-column gap-2 p-2 bg-info bg-opacity-50 rounded news-section">
+				<a href="/Patient/PatientPortal?section=Profile" class="btn btn-primary bg-black bg-opacity-50">Profile</a>
+				<a href="/Patient/PatientPortal?section=Appointments" class="btn btn-primary bg-black bg-opacity-50">Appointments</a>
+				<a href="/Patient/PatientPortal?section=Medical Records" class="btn btn-primary bg-black bg-opacity-50">Medical Records</a>
+				<a href="/Patient/PatientPortal?section=Prescriptions" class="btn btn-primary bg-black bg-opacity-50">Prescriptions</a>
 			</div>
 		</div>
 
-		<div class="col-2 mt-2">
-			<h2>Appointments</h2>
+		<!-- Generated content based on menu-choice -->
+		<div class="col ms-2">
+			@if (section == "Profile")
+			{
+				<h2>Profile</h2>
+				<table class="table">
+					<thead><tr><th>Name</th><th>Issue</th><th>Latest visit</th></tr></thead>
+					<tbody>
+						<tr><td>John Doe</td><td>Broken leg</td><td>2025-09-11</td></tr>
+						<tr><td>Frank Pank</td><td>Sadness</td><td>2025-06-22</td></tr>
+					</tbody>
+				</table>
+			}
+			else if (section == "Appointments")
+			{
+				<h2>Appointments</h2>
+				<table class="table">
+					<thead><tr><th>Name</th><th>Doctor</th><th>Date</th></tr></thead>
+					<tbody>
+						<tr><td>John Doe</td><td>Dr. Zhivago</td><td>2025-09-11</td></tr>
+						<tr><td>Frank Pank</td><td>Dr. Who</td><td>2025-06-22</td></tr>
+					</tbody>
+				</table>
+			}
+			else if (section == "Medical Records")
+			{
+				<h2>Medical Records</h2>
+				<table class="table">
+					<thead><tr><th>Name</th><th>Number of visits</th><th>Latest visit</th></tr></thead>
+					<tbody>
+						<tr><td>John Doe</td><td>526</td><td>2025-09-11</td></tr>
+						<tr><td>Frank Pank</td><td>4</td><td>2025-06-22</td></tr>
+					</tbody>
+				</table>
+			}
+			else if (section == "Prescriptions")
+			{
+				<h2>Profile</h2>
+				<table class="table">
+					<thead><tr><th>Name</th><th>Prescription</th><th>Amount</th></tr></thead>
+					<tbody>
+						<tr><td>John Doe</td><td>Morphine</td><td>150mg * 200tb</td></tr>
+						<tr><td>Frank Pank</td><td>Ibuprofen</td><td>400mg * 150tb</td></tr>
+					</tbody>
+				</table>
+			}
 		</div>
 	</div>
 </div>
