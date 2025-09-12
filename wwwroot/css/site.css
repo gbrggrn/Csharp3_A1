@@ -33,3 +33,20 @@ body {
     max-width: 950px;
     width: 100%;
 }
+
+/*Dashboard sidebar link */
+.dashboard-sidebar-link {
+    color: black;
+    text-decoration: none;
+}
+
+.dashboard-sidebar-link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.dashboard-sidebar-link:active,
+.dashboard-sidebar-link:focus {
+    color: black;
+    text-decoration: underline;
+}
