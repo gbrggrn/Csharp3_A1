@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\staff\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\staff\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\menu\\accidentsinjuries\\accidents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\menu\\accidentsinjuries\\accidents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\patient\\patientportal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\patient\\patientportal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\menu\\accidentsinjuries\\accidents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\menu\\accidentsinjuries\\accidents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\staff\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\staff\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
@@ -120,7 +120,7 @@
               "RelativeDocumentMoniker": "Pages\\Patient\\PatientPortal.cshtml",
               "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Patient\\PatientPortal.cshtml",
               "RelativeToolTip": "Pages\\Patient\\PatientPortal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-05T09:46:32.626Z",
               "EditorCaption": ""
@@ -188,13 +188,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "StaffDashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Staff\\StaffDashboard.cshtml",
               "RelativeDocumentMoniker": "Pages\\Staff\\StaffDashboard.cshtml",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Staff\\StaffDashboard.cshtml*",
-              "RelativeToolTip": "Pages\\Staff\\StaffDashboard.cshtml*",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAUwMkAAABNAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Staff\\StaffDashboard.cshtml",
+              "RelativeToolTip": "Pages\\Staff\\StaffDashboard.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAmwNEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-05T09:46:53.82Z",
               "EditorCaption": ""
@@ -213,13 +213,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Accidents.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\AccidentsInjuries\\Accidents.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\AccidentsInjuries\\Accidents.cshtml",
               "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\AccidentsInjuries\\Accidents.cshtml",
               "RelativeToolTip": "Pages\\Menu\\AccidentsInjuries\\Accidents.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-05T09:42:25.528Z",
               "EditorCaption": ""
