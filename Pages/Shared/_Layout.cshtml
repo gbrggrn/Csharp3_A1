@@ -25,16 +25,16 @@
 
                 <!-- Center: Search -->
                 <form class="d-flex mx-auto flex-nowrap">
-                    <input class="form-control me-2" type="search" placeholder="Search" />
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search input field" />
+                    <button class="btn btn-outline-primary" type="submit" aria-label="Search button">Search</button>
                 </form>
 
                 <!-- Right: Language, login, staff -->
                 <div class="d-flex ms-auto flex-nowrap">
                     <!-- Language -->
                     <select class="form-select me-2" aria-label="Select language">
-                        <option selected>English</option>
-                        <option value="1">Swedish</option>
+                        <option selected aria-label="English">English</option>
+                        <option value="1" aria-label="Swedish">Swedish</option>
                     </select>
                     <!-- Login -->
                     <a asp-page="/Patient/PatientPortal" class="btn btn-outline-secondary me-2" aria-label="Patient login">Login</a>
@@ -60,47 +60,47 @@
 
                         <!-- Life & Health nested dropdown -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="lifeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Life & Health</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="lifeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Life and health">Life & Health</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-page="/Menu/LifeHealth/Exercise">Exercise</a></li>
-                                <li><a class="dropdown-item" asp-page="/Menu/LifeHealth/Nutrition">Nutrition</a></li>
-                                <li><a class="dropdown-item" asp-page="/Menu/LifeHealth/Wellness">Wellness</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/LifeHealth/Exercise" aria-label="Exercise">Exercise</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/LifeHealth/Nutrition" aria-label="Nutrition">Nutrition</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/LifeHealth/Wellness" aria-label="Wellness">Wellness</a></li>
                             </ul>
                         </li>
 
                         <!-- Child & Pregnant nested dropdown-->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="childPregDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Child & Pregnant</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="childPregDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Child and pregnant">Child & Pregnant</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-page="/Menu/ChildPregnant/Child">Child</a></li>
-                                <li><a class="dropdown-item" asp-page="/Menu/ChildPregnant/Pregnant">Pregnant</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/ChildPregnant/Child" aria-label="Child">Child</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/ChildPregnant/Pregnant" aria-label="Pregnant">Pregnant</a></li>
                             </ul>
                         </li>
 
                         <!-- Diseases & Ailments nested dropdown -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="disAilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Diseases & Ailments</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="disAilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Diseases and ailments">Diseases & Ailments</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-page="/Menu/DiseasesAilments/Diseases">Diseases</a></li>
-                                <li><a class="dropdown-item" asp-page="/Menu/DiseasesAilments/Ailments">Ailments</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/DiseasesAilments/Diseases" aria-label="Diseases">Diseases</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/DiseasesAilments/Ailments" aria-label="Ailments">Ailments</a></li>
                             </ul>
                         </li>
 
                         <!-- Accidents & Injuries nested dropdown -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="accInjDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Accidents & Injuries</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="accInjDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Accidents and injuries">Accidents & Injuries</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-page="/Menu/AccidentsInjuries/Accidents">Accidents</a></li>
-                                <li><a class="dropdown-item" asp-page="/Menu/AccidentsInjuries/Injuries">Injuries</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/AccidentsInjuries/Accidents" aria-label="Accidents">Accidents</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/AccidentsInjuries/Injuries" aria-label="Injuries">Injuries</a></li>
                             </ul>
                         </li>
 
                         <!-- Examination & Treatment nested dropdown -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="exaTreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Examination & Treatment</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="exaTreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Examination and treatment">Examination & Treatment</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-page="/Menu/ExaminationTreatment/Examination">Examination</a></li>
-                                <li><a class="dropdown-item" asp-page="/Menu/ExaminationTreatment/Treatment">Treatment</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/ExaminationTreatment/Examination" aria-label="Examination">Examination</a></li>
+                                <li><a class="dropdown-item" asp-page="/Menu/ExaminationTreatment/Treatment" aria-label="Treatment">Treatment</a></li>
                             </ul>
                         </li>
 
@@ -125,11 +125,11 @@
 
                     <!-- News -->
                     <div class="col-2">
-                        <div class="news-section p-2 bg-info bg-opacity-25 border rounded">
+                        <div class="news-section p-2 bg-info bg-opacity-25 border rounded" alt="News section" aria-label="News section">
                             <h4>News updates</h4>
 
                             <!-- News card 1 -->
-                            <div class="card mb-2 bg-opacity-25">
+                            <div class="card mb-2 bg-opacity-25" alt="News card 1" aria-label="News card 1">
                                 <img src="~/images/news/news_hospital_img1.jpg" class="card-img-top img-fluid opacity-75" />
                                 <div class="card-body">
                                     <h6>Rabies finally cured</h6>
@@ -138,7 +138,7 @@
                             </div>
 
                             <!-- News card 2 -->
-                            <div class="card mb-2 bg-opacity-25">
+                            <div class="card mb-2 bg-opacity-25" alt="News card 2" aria-label="News card 2">
                                 <img src="~/images/news/news_hospital_img2.jpg" class="card-img-top img-fluid opacity-75" />
                                 <div class="card-body">
                                     <h6>Screen induced sadness prevalent among teachers</h6>
@@ -147,7 +147,7 @@
                             </div>
 
                             <!-- News card 3 -->
-                            <div class="card mb-2 bg-opacity-25">
+                            <div class="card mb-2 bg-opacity-25" alt="News card 3" aria-label="News card 3">
                                 <img src="~/images/news/news_hospital_img3.jpg" class="card-img-top img-fluid opacity-75" />
                                 <div class="card-body">
                                     <h6>New fake it until you make it-program successful in recruiting new doctors</h6>
@@ -156,7 +156,7 @@
                             </div>
 
                             <!-- News card 4 -->
-                            <div class="card mb-2 bg-opacity-25">
+                            <div class="card mb-2 bg-opacity-25" alt="News card 4" aria-label="News card 4">
                                 <img src="~/images/news/news_hospital_img4.jpg" class="card-img-top img-fluid opacity-75" />
                                 <div class="card-body">
                                     <h6>Involountary handclapping connected to chronic fatigue</h6>
@@ -165,7 +165,7 @@
                             </div>
 
                             <!-- News card 5 -->
-                            <div class="card mb-2 bg-opacity-25" alt="News 5">
+                            <div class="card mb-2 bg-opacity-25" alt="News card 5" aria-label="News card 5">
                                 <img src="~/images/news/news_hospital_img5.jpg" class="card-img-top img-fluid opacity-75" />
                                 <div class="card-body">
                                     <h6>Handsome doctors found to cure patients faster</h6>
@@ -182,7 +182,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2025 - Csharp3_A1 - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2025 - Csharp3_A1 - <a asp-area="" asp-page="/Privacy" aria-label="Privacy">Privacy</a>
         </div>
     </footer>
 
