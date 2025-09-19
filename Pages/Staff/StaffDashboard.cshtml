@@ -95,7 +95,7 @@
 		<h3>Manage patient records</h3>
 
 		<!-- Search bar -->
-		<form class="d-flex mx-auto flex-nowrap mb-2 ms-2 me-2">
+		<form class="d-flex mx-auto flex-nowrap mb-2">
 			<input class="form-control me-2" type="search" placeholder="Search" />
 			<button class="btn btn-outline-primary" type="submit">Search patient</button>
 		</form>
@@ -128,7 +128,7 @@
 								<input type="text" class="form-control" value="32" /> <!-- Placeholder -->
 							</div>
 							<div class="mb-2">
-								<label class="form-label"">Medical History</label>
+								<label class="form-label">Medical History</label>
 								<textarea class="form-control" rows="3">Broken bones</textarea>
 							</div>
 
@@ -154,6 +154,9 @@
 					<a href="#all" data-bs-toggle="tab" class="nav-link active d-block mb-2 dashboard-sidebar-link">All</a>
 					<a href="#upcoming" data-bs-toggle="tab" class=" nav-link d-block mb-2 dashboard-sidebar-link">Upcoming</a>
 					<a href="#pending" data-bs-toggle="tab" class="nav-link d-block mb-2 dashboard-sidebar-link">Pending</a>
+					
+					<!-- Schedule Appointment button -->
+					<a class="btn btn-outline-primary nav-link" data-bs-toggle="tab" href="#scheduleAppointment">Schedule Appointment</a>
 				</div>
 			</div>
 
@@ -196,11 +199,16 @@
 							</tbody>
 						</table>
 					</div>
+
+					<!-- Schedule Appointment tab -->
+					<form class="tab-pane fade" id="scheduleAppointment">
+						<h2>Schedule appointment</h2>
+						<input class="form-control mb-2" type="text" placeholder="Patient name" />
+						<input class="form-control mb-2" type="text" placeholder="Issue" />
+						<input class="form-control mb-2" type="datetime-local" />
+						<button class="btn btn-outline-primary mb-2" type="submit">Add appointment</button>
+					</form>
 				 </div>
-
-				 <!-- Schedule Appointment button -->
-				<button class="btn btn-outline-primary" type="button">Schedule Appointment</button>
-
 			</div>
 		</div>
 	</div>
