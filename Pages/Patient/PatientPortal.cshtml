@@ -3,7 +3,7 @@
 @{
 	ViewData["Title"] = "Patient portal";
 }
-
+<!-- See Staff/StaffDashboard or Shared/Layout for doing a menu with .nav, I wanted to try mixing in C# ->
 <!-- Browser query for button navigation -->
 @{
 	var section = Request.Query["section"].ToString() ?? "Profile"; //Request value of "section" - default to "Profile"
@@ -28,10 +28,10 @@
 			{
 				<h2>Profile</h2>
 				<table class="table">
-					<thead><tr><th>Name</th><th>Issue</th><th>Latest visit</th></tr></thead>
+					<thead><tr><th>Reason</th><th>Prescription</th><th>Date of visits</th></tr></thead>
 					<tbody>
-						<tr><td>John Doe</td><td>Broken leg</td><td>2025-09-11</td></tr>
-						<tr><td>Frank Pank</td><td>Sadness</td><td>2025-06-22</td></tr>
+						<tr><td>Broken leg</td><td>Cast+ibuprofen</td><td>2025-09-11</td></tr>
+						<tr><td>Sadness</td><td>Happiness</td><td>2025-06-22</td></tr>
 					</tbody>
 				</table>
 			}
@@ -39,24 +39,34 @@
 			{
 				<h2>Appointments</h2>
 				<table class="table">
-					<thead><tr><th>Name</th><th>Doctor</th><th>Date</th></tr></thead>
+					<thead><tr><th>Date</th><th>Doctor</th><th>Status</th></tr></thead>
 					<tbody>
-						<tr><td>John Doe</td><td>Dr. Zhivago</td><td>2025-09-11</td></tr>
-						<tr><td>Frank Pank</td><td>Dr. Who</td><td>2025-06-22</td></tr>
+						<tr><td>2025-07-20</td><td>Dr. Smith</td><td>Confirmed</td></tr>
+						<tr><td>2025-08-15</td><td>Dr. Lee</td><td>Pending</td></tr>
 					</tbody>
 				</table>
 
 				<!-- Schedule Appointment button -->
-				<button type="button" class="btn btn-outline-primary">Schedule Appointment</button>
+				<a href="/Patient/PatientPortal?section=ScheduleAppointment" class="btn btn-outline-primary">Schedule appointment</a>
+			}
+			else if (section == "ScheduleAppointment")
+			{
+				<form>
+					<h2>Schedule appointment</h2>
+					<input class="form-control mb-2" type="text" placeholder="Patient name" />
+					<input class="form-control mb-2" type="text" placeholder="Issue" />
+					<input class="form-control mb-2" type="datetime-local" />
+					<button class="btn btn-outline-primary mb-2" type="submit">Request appointment</button>
+				</form>
 			}
 			else if (section == "Medical Records")
 			{
 				<h2>Medical Records</h2>
 				<table class="table">
-					<thead><tr><th>Name</th><th>Number of visits</th><th>Latest visit</th></tr></thead>
+					<thead><tr><th>Reason</th><th></th><th>Date of visit</th></tr></thead>
 					<tbody>
-						<tr><td>John Doe</td><td>526</td><td>2025-09-11</td></tr>
-						<tr><td>Frank Pank</td><td>4</td><td>2025-06-22</td></tr>
+						<tr><td>Broken leg</td><td>2025-09-11</td></tr>
+						<tr><td>Sadness</td><td>2025-06-22</td></tr>
 					</tbody>
 				</table>
 			}
@@ -64,10 +74,10 @@
 			{
 				<h2>Profile</h2>
 				<table class="table">
-					<thead><tr><th>Name</th><th>Prescription</th><th>Amount</th></tr></thead>
+					<thead><tr><th>Prescription</th><th>Amount</th></tr></thead>
 					<tbody>
-						<tr><td>John Doe</td><td>Morphine</td><td>150mg * 200tb</td></tr>
-						<tr><td>Frank Pank</td><td>Ibuprofen</td><td>400mg * 150tb</td></tr>
+						<tr><td>Morphine</td><td>150mg * 200tb</td></tr>
+						<tr><td>Ibuprofen</td><td>400mg * 150tb</td></tr>
 					</tbody>
 				</table>
 			}
