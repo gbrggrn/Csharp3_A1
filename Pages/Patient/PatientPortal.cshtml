@@ -8,6 +8,9 @@
 @{
 	var section = Request.Query["section"].ToString() ?? "Profile"; //Request value of "section" - default to "Profile"
 }
+@{
+	Layout = "_MinimalLayout";
+}
 
 <div class="container mt-3">
 	<div class="row">
